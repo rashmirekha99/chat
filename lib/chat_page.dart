@@ -80,7 +80,12 @@ class _ChatPageState extends State<ChatPage> {
         child: Column(
           children: [
             // Text(data['senderId']),
-            Text(data['message']),
+            Container(
+                padding: EdgeInsets.all(10),
+                decoration: BoxDecoration(
+                    color: Colors.grey[300],
+                    borderRadius: BorderRadius.circular(10)),
+                child: Text(data['message'])),
           ],
         ),
       ),
