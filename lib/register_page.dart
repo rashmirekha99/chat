@@ -83,13 +83,13 @@ class _RegisterPageState extends State<RegisterPage> {
               height: 10,
             ),
             //
-            MyButton(onTap: signUp, text: 'Sign in')
+            MyButton(onTap: signUp, text: 'Sign Up')
             //
             ,
             SizedBox(
               height: 10,
             ),
-            GestureDetector(onTap: widget.onTap, child: Text('Register now'))
+            GestureDetector(onTap: widget.onTap, child: Text('Login now'))
           ],
         ),
       ),
